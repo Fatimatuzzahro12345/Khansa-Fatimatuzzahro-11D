@@ -134,4 +134,11 @@ form button:hover {
     color: white;
     text-align: center;
     padding: 80px 20px;
+
+}
+.event img {
+    width: 150px;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
 }
