@@ -1,0 +1,221 @@
+body {
+      background-color: #ffeded ;
+      font-family: 'Baloo 2',serif;
+      color: #000000;
+      margin: 5px;
+      padding: 0%;
+    }
+
+h1 {
+    color: #43021f;
+    text-align: center;
+    font-size: 40px;
+   }
+
+h2 {
+    color:rgb(67, 15, 15);
+    text-align: left;
+   }
+p  {
+   font-size: 18px;
+   text-align: left;
+   line-height: 1.5;
+   font-family: 'Poppins', sans-serif; 
+   }
+nav {
+    text-align: center;
+    margin: 20px 0;
+}
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    color: #333;
+    background-color: white;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: 2px solid #fcb9b9;
+    border-radius: 12px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+nav a :hover {
+    background-color: #ffdede;
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.daftar-produk { 
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+.produk {
+    background-color: #f8dfdf;
+    border: 1px solid #ffcfcf;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+.produk img {
+    width: 150px;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.produk h2 {
+    font-size: 20px;
+    color: #2c3e50;
+}
+.harga {
+    font-weight: bold;
+    color: #27ae60;
+}
+.deskripsi { 
+    font-size: 14px;
+    color: #555;
+}
+.artikel {
+    max-width: 700px;
+    margin: auto;
+    padding: 20px;
+    background-color: rgb(255, 230, 230);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.8;
+}
+.artikel .penulis {
+    font-style: italic;
+    color: #666;
+    margin-bottom: 20px;
+}
+.artikel .sampul {
+    width: 180px;
+    float: right;
+    margin: 0 0 20px 20px;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
+    border-radius: 6px;
+}
+.artikel blockquote { 
+    font-style: italic;
+    padding-left: 20px;
+    margin: 20px 0;
+    border-left: 4px solid #999;
+    color: #444;
+    background-color: #f9f9f9;
+}
+.btn-kembali {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 10px 16px;
+    background-color: #0066cc;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+}
+.btn-kembali:hover {
+    background-color: #f9f9f9;
+}
+.formulir {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f9e1e1;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+form input,
+form select,
+form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ffdddd;
+}
+form button {
+    background-color: #ffa8a8;
+    color: rgb(255, 255, 255);
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+form button:hover {
+    background-color: #034b5b;
+}
+.hero {
+    background-image: url(header.jpg.png);
+    background-position: center;
+    text-align: center;
+    padding: 0px;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: none;
+}
+.produk img {
+    width: 150px;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.kontak {
+    background-color: #f8dfdf;
+    border: 1px solid #ffcfcf;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    max-width: 500px;
+    margin: 20px auto;
+    display: block;
+}
+.event {
+    background-color: #f8dfdf;
+    border: 1px solid #ffcfcf;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    max-width: 400px;
+    margin: 20px auto;
+    display: block;
+}
+.event .deskripsi {
+    text-align: center;
+    font-size: 15px;
+}
+.event img {
+    width: 400px;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.tag {
+    font-size: 30px;
+    text-align: center;
+    display: block;
+}
+.event h2 {
+    font-size: 25px;
+    text-align: center;
+
+}
+.container-event {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.event {
+    flex: 1;
+    max-width: 45%;
+}
